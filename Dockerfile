@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY  target/webapp.jar webapp.jar
-CMD [ "java","-jar","webapp.jar"]
+COPY  target/automation.jar automation.jar
+CMD [ "java","-jar","automation.jar"]
